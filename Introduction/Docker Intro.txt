@@ -1,0 +1,23 @@
+Introduction to Docker: https://www.youtube.com/watch?v=iqqDU2crIEQ&t=119s&ab_channel=Docker
+The main consideration regarding Docker is that it solves the big problem of Servers (Maintenance and Configuration basically - Uptime etc)
+
+What Docker-Containers provides is the following:
+	Bundles all the application code, support binaries and configuration together that creates an image
+	Deploy multiple of those images together in a Server
+	Containers are Ephemeral - short lives. If one of them goes down another one will replace it immedietly.
+
+Docker Lifecycle (?):
+	Build Image:
+		Consinstently package everything your application needs to run
+	Ship Image:
+		Easily ship these images to runtimes in the cloud or on your local developer machine
+	Run Image:
+		Easily and consistently execute your applications
+
+	CI/CD:
+		Consistently test and deploy your code to different environments. e.g Stage, UAT, Production
+	Different Versions:
+		You can easily run different versions of your software or vendor software without installation
+	Roll Forward:
+		When a defect is found, no need to patch or update the application. We just ship a new image
+
